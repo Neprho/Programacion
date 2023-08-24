@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/logo.png" >
+    <title>Proyecto-Final</title>
+</head>
+<body class="body-dia">
+    <nav>
+        <a href='/index.html'>
+            <svg  width="250" height="75">
+                <rect x="43" y="7" width="64" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+
+                <rect x="49" y="11" width="54" height="28" rx="5" id="mon2" fill="#495579"></rect>
+
+                <polygon points="55 44 ,95 44,123 65,30 64" fill="#F0E9D2" id="tec1"></polygon>
+
+                <polygon points="59 47 ,93 47,112 61,40 60" fill="#495579" id="tec2"></polygon>
+            </svg>
+            </a>
+            
+        <ul class="menu">
+            <li class="item-menu"><a class='item-link' target="_blank" href='./historia.html'>HISTORIA</a></li>
+            <li class="item-menu"><a class='item-link' target="_blank" href='./juguemos.html'>JUGUEMOS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="titulo-blanco">Juguemos un poco</h1> 
+        
+    </header>
+
+    <main>
+
+<h2>Armemos el rompecabezas y veamos que imagen se forma</h2><br>
+
+        <section class="juego">
+            <div class="cajas" >
+                <div class="caja" id="cajasoltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar2">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar3">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+            </div>
+            <div id="cajaimagenes" >
+                <img id="imagen1" src="./img/rompe2.png" alt="imagen-rompecabezas"/>
+                <img id="imagen2" src="./img/Rompe1.png" alt="imagen-rompecabezas"/>
+                <img id="imagen3" src="./img/Rompe3.png" alt="imagen-rompecabezas"/>
+            </div>
+        </section>
+        <button onclick="reinicio()" class="botonesVideo reinicio" >Reiniciar</button>
+
+    </main>
+    <script src="./scripthistoria.js"></script>
+</body>
+</html>

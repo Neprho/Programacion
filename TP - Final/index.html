@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/logo.png" >
+    <title>Proyecto-Final</title>
+</head>
+<body class="body-dia">
+
+    <nav>
+        <a href='/index.html'>
+            <svg  width="250" height="75">
+                <rect x="43" y="7" width="64" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+
+                <rect x="49" y="11" width="54" height="28" rx="5" id="mon2" fill="#495579"></rect>
+
+                <polygon points="55 44 ,95 44,123 65,30 64" fill="#F0E9D2" id="tec1"></polygon>
+
+                <polygon points="59 47 ,93 47,112 61,40 60" fill="#495579" id="tec2"></polygon>
+            </svg>
+            </a>
+            
+        <ul class="menu">
+            <li class="item-menu"><a class='item-link' target="_blank" href='./historia.html'>HISTORIA</a></li>
+            <li class="item-menu"><a class='item-link' target="_blank" href='./historia.html'>JUGUEMOS</a></li>
+        </ul>
+<!---       <a class="item-link" onclick="desplegar()">TEMA</a> 
+            <ul class="tema">
+            <li id="tema_dia"class="item-submenu"  onclick="temaDia()">DIA</li>
+            <li id="tema_noche" class="item-submenu" onclick="temaNoche()">NOCHE</li>
+-->
+    </nav>
+
+    <header>
+        <h1 class="titulo-blanco">Programación e historia</h1> 
+    </header>
+
+    <h2 class="h2-contenido">Contenido</h2>
+    <main class="cont-padre">
+            <div class="card">
+               <img class="img-card" src="./img/img1.jpg" alt="imagen=producto">
+               <p class="desc-card">Conozcamos Un poco sobre la historia de la programacion</p>
+               <a class="boton-ver" href="./historia.html" style="color:#F0F5E4">Historia de la programación</a>
+            </div>
+            <div class="card">
+                <img class="img-card" src="./img/img2.jpg" alt="imagen=producto">
+                <p class="desc-card">Juguemos un poco sobre la computacion</p>
+                <!-- CREAR PAGINA DEL JUEGO -->
+                <a class="boton-ver" href="./juguemos.html" style="color:#F0F5E4">Ir a juego</a>
+            </div>
+   </main>
+
+   <footer>
+        <div class="footer-left">
+        <img class="logo" src="./img/logo.png" alt="logo">
+            <h3 class="titulo-blanco titulo-foot">Programación <br> E <br> Historia </h3>
+        </div>
+           <div>Sitio con fines educativos - Creado por Iván Fernández</div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
