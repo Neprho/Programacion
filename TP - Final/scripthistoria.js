@@ -4,12 +4,12 @@ let contador=0;
 
 
 function iniciar(){
-    var imagenes=document.querySelectorAll('#cajaimagenes img');
+     let imagenes=document.querySelectorAll('#cajaimagenes img');
      soltar=document.getElementById('cajasoltar');  
      soltar2  =document.getElementById('cajasoltar2'); 
      soltar3 = document.getElementById('cajasoltar3'); 
 
-    for(var i=0; i<imagenes.length; i++){
+    for(let i=0; i<imagenes.length; i++){
         imagenes[i].addEventListener('dragstart', arrastrado, false);
         // imagenes[i].addEventListener('dragend', finalizado, false);
     }
